@@ -1,3 +1,7 @@
+*{
+  font-family: robo ;
+}
+
 .container{
   display: grid;
   grid-template-columns: 300px 1.5fr 1fr;
@@ -61,13 +65,24 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  
 }
+
+.profile-picc{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
 .user-tweet{
   display: grid;
   grid-template-columns: 50px 1fr;
-  height: 100px;
+  height: 80px;
   width: auto;
-  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid #EAEAEA;
 }
 .tweet-input{
   border: none;
@@ -75,22 +90,46 @@
   padding-left: 25px;
   padding-bottom: 50px;
   font-size: 25px;
+  border-bottom: 1px solid #EAEAEA;
 }
 
 .who-to-follow , .recent{
   border-radius: 25px;
   background-color: #EAEAEA;
   border: none;
-  height: 65%;
+  height: 45%;
   width: 90%;
   font-size: 30px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 15px;
   padding-left: 20px;
   font-weight: bold;
 }
 .feed{
-  border-bottom: 1px solid #EDEDED;
   border-left: 1px solid #EDEDED ;
   border-right: 1px solid #EDEDED;
+  padding-left: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
+ 
+ .tweet, .user-name{
+  padding-top: 0;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+ }
+ .tweet{
+  font-size: 15px;
+  margin-bottom: 0;
+ }
+ .user-name{
+  font-size: 15px;
+  margin-bottom: 0;
+ }
+ .tweet-info{
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 10px;
+  font-size: 15px;
+ }
