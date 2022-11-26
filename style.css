@@ -133,3 +133,67 @@
   padding-left: 10px;
   font-size: 15px;
  }
+ 
+.trend-genre{
+  font-size: 16px;
+  font-weight:lighter;
+  margin-bottom: 0;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+ .trends{
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: lighter;;
+ }
+
+ .trend-stats{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: lighter;
+  color:grey;
+ }
+ 
+.to-be-followed{
+  display: grid;
+  grid-template-columns: 50px 50px 1fr;
+}
+ .profile-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+ }
+ .follow-info{
+  font-size: 30px;
+ }
+ .followBtn{
+  background-color: black;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 60%;
+  cursor: pointer;
+  margin-top: 28px;
+ }
+
+ .follow-info{
+  font-size: 23px;
+  font-weight: lighter;
+  color: grey;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+ }
+ .account{
+  font-size: 16px;
+  font-weight: lighter;
+  color: grey;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-top: 3px;
+ }
