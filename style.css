@@ -67,6 +67,7 @@
   grid-template-columns: 50px 1fr;
   height: 100px;
   width: auto;
+  border-bottom: 1px solid #EDEDED;
 }
 .tweet-input{
   border: none;
@@ -75,9 +76,7 @@
   padding-bottom: 50px;
   font-size: 25px;
 }
-.feed{
-  
-}
+
 .who-to-follow , .recent{
   border-radius: 25px;
   background-color: #EAEAEA;
@@ -89,4 +88,9 @@
   margin-bottom: 15px;
   padding-left: 20px;
   font-weight: bold;
+}
+.feed{
+  border-bottom: 1px solid #EDEDED;
+  border-left: 1px solid #EDEDED ;
+  border-right: 1px solid #EDEDED;
 }
