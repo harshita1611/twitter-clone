@@ -1,0 +1,92 @@
+.container{
+  display: grid;
+  grid-template-columns: 300px 1.5fr 1fr;
+  border: 10px;
+}
+.twitter-logo{
+  width: 50px;
+  height: 50px;
+  padding-left: 20px;
+}
+.buttons{
+  padding-top: 30px;
+}
+.homeBtn , .notifBtn , .msgBtn , .bmBtn , .listsBtn , .profileBtn , .moreBtn{
+  height: 50px;
+  width: 125px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px ;
+  text-align: left;
+  border-radius: 18px;
+  border:none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-left: 18px;
+}
+.homeBtn:hover , .notifBtn:hover , .msgBtn:hover , .bmBtn:hover , .listsBtn:hover , .profileBtn:hover , .moreBtn:hover{
+  background-color: #e6ecf0;
+}
+
+.tweetBtn{
+  background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.tweetBtn:hover {
+  background-color: rgb(26, 157, 204);
+}
+
+.search{
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  border-radius: 25px;
+  background-color: #EAEAEA;
+  border: none;
+  width: 90%;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.profile-pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.user-tweet{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  height: 100px;
+  width: auto;
+}
+.tweet-input{
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+.feed{
+  
+}
+.who-to-follow , .recent{
+  border-radius: 25px;
+  background-color: #EAEAEA;
+  border: none;
+  height: 65%;
+  width: 90%;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  font-weight: bold;
+}
